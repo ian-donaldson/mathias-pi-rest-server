@@ -1,0 +1,35 @@
+{
+  "name": "mathias-google-actions",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Mathias Malmqvist",
+  "main": "server/index.js",
+  "scripts": {
+    "postinstall": "npm build"
+  },
+  "private": true,
+  "dependencies": {
+    "castv2-client": "^1.2.0",
+    "chalk": "^2.3.0",
+    "cheerio": "^1.0.0-rc.2",
+    "core-js": "^2.5.3",
+    "express": "^4.16.2",
+    "express-sslify": "^1.2.0",
+    "helmet": "^3.9.0",
+    "http-proxy": "^1.16.2",
+    "lodash": "^3.10.1",
+    "mdns": "^2.3.4",
+    "morgan": "^1.9.0",
+    "neo-async": "^2.5.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "^8.9.1",
+    "npm": ">= 5"
+  },
+  "description": "Node server resolving Google Actions when called upon",
+  "keywords": [
+    "api.ai"
+  ]
+}
